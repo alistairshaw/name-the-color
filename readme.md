@@ -34,6 +34,8 @@ Contributions are very welcome and will be fully credited, just please make sure
 - [Alistair Shaw](https://github.com/alistairshaw)
 - [All Contributors](https://github.com/alistairshaw/name-the-color/contributors)
 
+Lots of credit to Chirag Mehta who came up with this in Javascript back in 2007. (http://chir.ag/projects/ntc/).
+The list of colors comes from his website as well as the method for converting hex codes.
 
 ## License
 
