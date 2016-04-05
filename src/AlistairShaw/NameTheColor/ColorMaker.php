@@ -2,6 +2,9 @@
 
 use AlistairShaw\NameTheColor\Exceptions\InvalidColorNameException;
 use AlistairShaw\NameTheColor\Exceptions\InvalidHexException;
+use AlistairShaw\NameTheColor\Lib\Color;
+use AlistairShaw\NameTheColor\Lib\ColorList;
+use AlistairShaw\NameTheColor\Lib\HexValidator;
 
 class ColorMaker {
 
@@ -57,6 +60,9 @@ class ColorMaker {
         }
     }
 
+    /**
+     * @return Color
+     */
     public function getColor()
     {
         return $this->color;
@@ -97,6 +103,10 @@ class ColorMaker {
         return $final;
     }
 
+    /**
+     * @param $hex
+     * @return array
+     */
     private function getRGB($hex)
     {
         return [
@@ -106,6 +116,10 @@ class ColorMaker {
         ];
     }
 
+    /**
+     * @param $hex
+     * @return array
+     */
     private function getHSL($hex)
     {
         $rgb = $this->getRGB($hex);
