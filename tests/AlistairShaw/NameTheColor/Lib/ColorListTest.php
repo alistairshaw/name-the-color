@@ -1,6 +1,6 @@
 <?php namespace AlistairShaw\NameTheColor\Test;
 
-use AlistairShaw\NameTheColor\ColorList;
+use AlistairShaw\NameTheColor\Lib\ColorList;
 
 class ColorListTest extends \PHPUnit_Framework_TestCase {
 

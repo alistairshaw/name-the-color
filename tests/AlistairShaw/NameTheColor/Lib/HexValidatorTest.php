@@ -1,6 +1,6 @@
 <?php namespace AlistairShaw\NameTheColor\Test;
 
-use AlistairShaw\NameTheColor\HexValidator;
+use AlistairShaw\NameTheColor\Lib\HexValidator;
 
 class HexValidatorTest extends \PHPUnit_Framework_TestCase {
 
