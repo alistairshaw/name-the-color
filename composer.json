@@ -5,9 +5,7 @@
     "keywords": ["color names", "colors", "convert", "palette"],
     "homepage": "https://github.com/thephpleague/color-extractor",
     "license": "MIT",
-    "replace": {
-        "alistairshaw/name-the-color": "*"
-    },
+    "version": "0.1",
     "authors": [
         {
             "name": "Alistair Shaw",

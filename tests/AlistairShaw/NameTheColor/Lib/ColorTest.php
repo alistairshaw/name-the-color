@@ -1,6 +1,6 @@
 <?php namespace AlistairShaw\NameTheColor\Test;
 
-use AlistairShaw\NameTheColor\Color;
+use AlistairShaw\NameTheColor\Lib\Color;
 
 class ColorTest extends \PHPUnit_Framework_TestCase {
 

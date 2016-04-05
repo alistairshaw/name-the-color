@@ -39,5 +39,12 @@ class ColorMakerTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals('C86B2D', $color->getOriginalHex());
         $this->assertEquals('BD5E2E', $color->getHex());
     }
-    
+
+    public function testFromString()
+    {
+        $color = ColorMaker::fromString('Tuscany')->getColor();
+        $this->assertEquals('Tuscany', $color->getName());
+        $this->assertEquals('BD5E2E', $color->getOriginalHex());
+        $this->assertEquals('BD5E2E', $color->getHex());
+    }
 }

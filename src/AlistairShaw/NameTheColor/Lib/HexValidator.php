@@ -1,4 +1,4 @@
-<?php namespace AlistairShaw\NameTheColor;
+<?php namespace AlistairShaw\NameTheColor\Lib;
 
 use AlistairShaw\NameTheColor\Exceptions\InvalidHexException;
 
