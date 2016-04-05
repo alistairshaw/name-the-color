@@ -1,6 +1,6 @@
 <?php namespace AlistairShaw\NameTheColor\Exceptions;
 
-class InvalidHexException extends \Exception {
+class InvalidHexException extends NameTheColorException {
 
     public function __construct($hex)
     {

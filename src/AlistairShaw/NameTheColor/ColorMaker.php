@@ -1,5 +1,6 @@
 <?php namespace AlistairShaw\NameTheColor;
 
+use AlistairShaw\NameTheColor\Exceptions\InvalidColorNameException;
 use AlistairShaw\NameTheColor\Exceptions\InvalidHexException;
 
 class ColorMaker {
@@ -16,6 +17,17 @@ class ColorMaker {
      */
     public static function fromHex($hex)
     {
+        return new static($hex);
+    }
+
+    /**
+     * @param $string
+     * @return static
+     * @throws InvalidColorNameException
+     */
+    public static function fromString($string)
+    {
+        if (!$hex = ColorList::getHexFromName($string)) throw new InvalidColorNameException($string);
         return new static($hex);
     }
 
