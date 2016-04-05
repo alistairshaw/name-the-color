@@ -1,0 +1,30 @@
+{
+    "name": "alistairshaw/name-the-color",
+    "type": "library",
+    "description": "Provide color names from hex values and hex values for color names",
+    "keywords": ["color names", "colors", "convert", "palette"],
+    "homepage": "https://github.com/thephpleague/color-extractor",
+    "license": "MIT",
+    "replace": {
+        "alistairshaw/name-the-color": "*"
+    },
+    "authors": [
+        {
+            "name": "Alistair Shaw",
+            "email": "alistairshaw@gmail.com",
+            "homepage": "http://alistairshaw.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
