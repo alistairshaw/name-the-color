@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Provide color names from hex values and hex values for color names",
     "keywords": ["color names", "colors", "convert", "palette"],
-    "homepage": "https://github.com/thephpleague/color-extractor",
+    "homepage": "https://github.com/alistairshaw/name-the-color",
     "license": "MIT",
     "version": "0.1",
     "authors": [
