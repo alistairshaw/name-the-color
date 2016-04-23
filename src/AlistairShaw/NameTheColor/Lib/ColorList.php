@@ -25,7 +25,7 @@ class ColorList {
     {
         foreach (self::getAll() as $color)
         {
-            if ($color[1] == $name) return $color[0];
+            if (strtolower($color[1]) == strtolower($name)) return $color[0];
         }
 
         return false;
